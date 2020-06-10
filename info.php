@@ -5,7 +5,7 @@ $info = [
 	'description' => t('Добавляет отдельный RSS канал с разметкой под Яндекс.Турбо-страницы, сразу после установки и активации плагина можно отдавать Яндексу в Вебмастере канал по адресу «http(s)://YOUR_SITE/feedturbo/». Разметка соответствует требованиям Яндекса и выдает ошибки при тесте обычными xml валидаторами, тк имеет специфические теги.'),
 	'version' => '1.0',
 	'author' => 'servakov',
-	'plugin_url' => 'http://wpgrabber-tune.blogspot.com/feed_turbo',
+	'plugin_url' => 'https://github.com/servakov/feed_turbo',
 	'author_url' => 'http://wpgrabber-tune.blogspot.com/',
 	'group' => 'rss',
 
