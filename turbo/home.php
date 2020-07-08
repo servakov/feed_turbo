@@ -52,7 +52,8 @@ if($ytnumber)
     $limit = mso_get_option('limit_post_rss', 'templates', 7);
 }
 
-$cut = mso_get_option('full_rss', 'templates', 0) ? false : tf('Читать полностью') . ' »';
+$cut = $full_rss ? false : tf('Читать полностью') . ' »';
+#$cut = mso_get_option('full_rss', 'templates', 0) ? false : tf('Читать полностью') . ' »';
 $feed_name = mso_head_meta('title');
 $description = mso_head_meta('description');
 $feed_url = getinfo('siteurl');

@@ -57,6 +57,13 @@ function feed_turbo_mso_options()
 		'plugin_feed_turbo',
 		'plugins',
 		[
+			'full_rss' => [
+				'type' => 'checkbox',
+				'name' => t('Полные записи в RSS Яндекс.Турбо:'),
+				'description' => t('Отметьте, если нужно отдавать в RSS Яндекс.Турбо полные записи. Если нет, то будет только до [cut].
+                    '),
+				'default' => '0'
+			],
 			'ytnumber' => [
 				'type' => 'text',
 				'name' => t('Количество записей:'),
